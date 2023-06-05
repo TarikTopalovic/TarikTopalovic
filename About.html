@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kuwait</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav> 
+          <img id="kuwaitflag" src="images/logo.png">
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-rounded" id="icons" id="closemain" onclick="hideMenu()" >close</span><ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Visa.html">VISA</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-rounded" id="icons" id="menu" onclick="showMenu()">menu</span>
+        </nav>
+
+        <h1 class="maintitle">About us<h1>
+        
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the country of Kuwait</h1>
+                    <p>Welcome to the official website of Kuwait Tourism! We are your ultimate online destination for discovering the rich cultural heritage,
+                        breathtaking landscapes, and captivating experiences that Kuwait has to offer. Our website serves as a comprehensive guide, 
+                        providing you with a wealth of information on top attractions, historical sites, vibrant festivals, and hidden gems across the country. 
+                        Whether you're interested in exploring the iconic Kuwait Towers, strolling along the vibrant Corniche, or delving into the fascinating history of the Sadu House, 
+                        our website is your go-to resource for planning your perfect Kuwait adventure. With detailed itineraries, practical travel tips, and immersive virtual tours, 
+                        we aim to inspire and assist you in creating unforgettable memories in this enchanting Gulf nation. Start your journey today with Kuwait Tourism!</p>
+                        <a href="" class="hero-btn">Explore Now</a>
+                </div>
+                    <div class="about-col">
+                        <img src="images/nice.jpg">
+                </div>
+            </div>
+    
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        Welcome to the official website of Kuwait Tourism!<br> We are your ultimate online destination for discovering the rich cultural heritage, <br>
+        breathtaking landscapes, and captivating experiences that Kuwait has to offer.<br>
+        Our website serves as a comprehensive guide, providing you with a wealth of information<br> on top attractions, 
+        historical sites, vibrant festivals, and hidden gems across the country. </p>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+</section>
+<p> Made by Topalovic Tarik © </p>
+<script>
+    <!---------------Javascript for Toggle Menu---------------->
+      var navlinks =document.getElementById("navLinks");
+      
+      function showMenu(){
+          navLinks.style.right ="0";
+
+      }
+      function hideMenu(){
+          navLinks.style.right="-200px";
+      }
+
+      </script>
+
+  </section>
+
+</body>
+</html>
+
