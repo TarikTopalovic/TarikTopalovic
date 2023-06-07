@@ -640,6 +640,6 @@ h3{
 }
 
 
-@media(max-width:700px){
-
-}
+ #navLinks {
+  position: fixed;
+   }
