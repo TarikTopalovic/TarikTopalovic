@@ -15,8 +15,6 @@ body {
     background-position: center;
     background-size: cover;
     position:relative;
-    
-    
 }
 
 nav{
@@ -48,6 +46,30 @@ nav img{
     font-size: 18px;
     font-weight: bold;
 }
+
+.nav-links ul li a{
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+
+  .nav-links ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .nav-links ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 #kuwaitflag{
     height: 6%;
@@ -88,7 +110,11 @@ nav img{
     cursor: pointer;
 }
 
-
+.hero-btn:hover{
+  border: 1px solid #ffffff;
+  background: #181818;
+  transition: 1s;
+}
 
 
 nav .fa{
@@ -634,6 +660,13 @@ h3{
 .inu{
     margin-bottom: 30px;
 }
+
+@media(max-width:700px){
+    
+    .contactinfo{
+        margin-right: 100%;
+    }
+    }
 
  @media(max-width:700px){
     
